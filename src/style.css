@@ -1,0 +1,525 @@
+.navbar {
+  height: 50px;
+  background: fff;
+}
+
+.text-line-searchfield {
+  width: 300px;
+  background-color: transparent;
+  outline: none;
+  outline-style: none;
+  outline-offset: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  padding: 3px 10px;
+}
+.count-symbol {
+  width: 10px;
+  height: 10px;
+
+  position: absolute;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  margin: -5px;
+  padding: 0;
+}
+
+
+
+.sidebar-item.active{
+  background: #33085ddb;
+  border-left: 5px solid rgb(181, 179, 255)!important;
+}
+.sidebar-item.active:hover{
+  background: #33085ddb;
+}
+.sidebar-link.active {
+  color: #ffffff;
+}
+
+
+
+/* critical-point */
+.main-navbar {
+  z-index: 9999;
+  position: fixed;
+  background: white;
+}
+
+@media(min-width: 768px) { .main-navbar { width: 76%; } }
+@media(min-width: 1024px) { .main-navbar { width: 80%; } }
+@media(min-width: 1280px) { .main-navbar { width: 83%; } }
+@media(min-width: 1440px) { .main-navbar { width: 85%; } }
+@media(min-width: 1920px) { .main-navbar { width: 88%; } }
+@media(min-width: 2560px) { .main-navbar { width: 91%; } }
+@media(min-width: 3840px) { .main-navbar { width: 94%; } }
+
+/* critical-point */
+.main-container {
+  padding-top: 55px;
+  background: #F0F0F7;
+  min-height: 1000px;
+}
+
+/* Dashborad Design : Start */
+.dashboardFirstRow, .dashboardSecondRow, .dashboardThirdRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboardFirstRow > div , .dashboardSecondRow > div {
+  background: #ffffff;
+  height: 100px; width: 312px; border: 1px solid #dee2e6;
+}
+
+.dashboardThirdRow > div {
+  background: #ffffff;
+  height: 270px; width: 484px; border: 1px solid #dee2e6;
+}
+
+@media(max-width: 1024px) {
+  .dashboardFirstRow > div , .dashboardSecondRow > div, .dashboardThirdRow > div {
+    margin-top: 15px;
+  }
+  .dashboardFirstRow > div , .dashboardSecondRow > div {
+    height: 150px; width: 484px;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1365px ) {
+  .dashboardFirstRow > div , .dashboardSecondRow > div {
+    height: 110px; width: 215px;
+  }
+  .dashboardThirdRow > div {
+    height: 300px; width: 335px; border: 1px solid #dee2e6;
+  }
+}
+
+@media(min-width: 1920px ) {
+  .dashboardFirstRow, .dashboardSecondRow, .dashboardThirdRow {
+    padding-top: 20px;
+  }
+  .dashboardFirstRow > div , .dashboardSecondRow > div {
+    height: 200px; width: 470px;
+  }
+  .dashboardThirdRow > div {
+    height: 510px; width: 742px; border: 1px solid #dee2e6;
+  }
+}
+@media(min-width: 2560px ) {
+  .dashboardFirstRow > div , .dashboardSecondRow > div {
+    height: 300px; width: 710px;
+  }
+  .dashboardThirdRow > div {
+    height: 690px; width: 1080px; border: 1px solid #dee2e6;
+  }
+}
+@media(min-width: 3840px ) {
+  .dashboardFirstRow, .dashboardSecondRow, .dashboardThirdRow {
+    padding-top: 40px;
+  }
+  .dashboardFirstRow > div , .dashboardSecondRow > div {
+    height: 400px; width: 1050px;
+  }
+  .dashboardThirdRow > div {
+    height: 1090px; width: 1650px; border: 1px solid #dee2e6;
+  }
+}
+/* Dashborad Design : End */
+
+
+
+
+
+/* Login Page : Start */
+.loginform {
+  border: none;
+  border-bottom: 2px solid rgb(197, 196, 196);
+  outline: 0px;
+  width: 100%;
+}
+.remembere-check-box-div {
+  font-size: 12px;
+  color: rgb(94, 88, 88);
+}
+.forgot-password {
+  font-size: 12px;
+  color: rgb(94, 88, 88);
+}
+/*
+.loginpageleft{
+  min-height: 665px;
+  background-image: linear-gradient(to bottom left, red, #079CD9);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.loginpageleft > div:nth-child(1) {
+  color: red;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+.loginpageleft > div:nth-child(2) {
+  color: red;
+  overflow: hidden;
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.loginpageleft > div:nth-child(3) {
+  color: red;
+  overflow: hidden;
+  width: 100%;
+  z-index: 3;
+}
+.loginpageleft > div:nth-child(4) {
+  color: red;
+  overflow: hidden;
+  width: 100%;
+  z-index: 4;
+}
+*/
+
+/* Login Page : End */
+
+
+
+/* Register Page, View Page */
+.pageContainerHead {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pageContainerHead > div {
+  width: 150px;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(189, 188, 188);
+  background:  rgb(4, 84, 116);
+  border: 2px solid rgb(114, 112, 112);
+}
+
+.pageContainerHead > div:hover {
+  background: #009AD8;
+  color: rgb(189, 188, 188);
+  border: 2px solid rgb(114, 112, 112);
+}
+
+.pageContainerBody {
+  margin: .5rem 0 1rem 0;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+/* ------------- */
+
+
+
+/* Create User */
+.usersubmitbtn {
+  width: 150px;
+  font-size: 15px;
+  font-weight: 500;
+  background:  #ED3424;
+  color: white;
+  box-shadow: 1px 1px 2px rgb(167, 163, 163), 0 0 25px rgb(147, 147, 150), 0 0 5px rgb(154, 154, 156);
+}
+/* ----------- */
+
+
+.assignPaginationCheckBox {
+  width: 16px;
+  height: 16px;
+}
+
+.assignPaginationAllCheckBox {
+  width: 20px;
+  height: 20px;
+}
+
+.loading_dots:after {
+  content: '. ';
+  animation: dots .8s steps(2, end) infinite;
+}
+
+/*card-custom desing*/
+.card-footer-custom {
+  background: #33085ddb;
+}
+
+.relaod-logo-css{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@keyframes dots {
+  0%, 20% {
+    color: rgba(0,0,0,0);
+    text-shadow:
+            .25em 0 0 rgba(0,0,0,0),
+            .5em 0 0 rgba(0,0,0,0);}
+  40% {
+    color: black;
+    text-shadow:
+            .25em 0 0 rgba(0,0,0,0),
+            .5em 0 0 rgba(0,0,0,0);}
+  60% {
+    text-shadow:
+            .25em 0 0 black,
+            .5em 0 0 rgba(0,0,0,0);}
+  80%, 100% {
+    text-shadow:
+            .25em 0 0 black,
+            .5em 0 0 black;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+body {
+  overflow-x: hidden;
+}
+
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+  padding-left: 230px;
+}
+
+#sidebar-wrapper {
+  position: fixed;
+  left: 230px;
+  width: 230px;
+  height: 100%;
+  margin-left: -230px;
+  overflow-y: auto;
+  background: #33085ddb;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  width: 230px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -230px;
+}
+
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 230px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* removed */
+.sidebar-nav li {
+  /*
+  text-indent: 10px;
+  line-height: 40px;
+  */
+  border-bottom-color: #58587761;
+  border-bottom-style: outset;
+  border-bottom-width: 1px;
+}
+
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sidebar-nav li:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(234, 230, 233, 0.25);
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+/*critical point*/
+.sidebar-nav>.sidebar-brand {
+  height: 55px;
+  font-size: 15px;
+  line-height: 50px;
+  background: #00000082;
+  padding-left: 10px;
+}
+
+.sidebar-nav>.sidebar-brand a {
+  color: #000;
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media(max-width:767px) { /* This is a very important thing here */
+  #wrapper {
+    padding-left: 0;
+  }
+  #wrapper.toggled {
+    padding-left: 230px;
+  }
+  #sidebar-wrapper {
+    width: 0;
+  }
+  #wrapper.toggled #sidebar-wrapper {
+    width: 230px;
+  }
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
+
+.custom-textarea {
+  width: 100%;
+  width: -moz-available;          /* For Mozzila */
+  width: -webkit-fill-available;  /* For Chrome. */
+  overflow: hidden;
+  word-break: break-all;
+}
+.select-trip div {
+  padding: 1px;
+  font-size:10px;
+  min-height: 18px;
+
+}
+.select-trip div div {
+  padding: 1px;
+
+}
+
+.arrow-style {
+  transform: rotate(45deg);
+  display: inline-block;
+}
+
+.issue-text-body-admin p{
+  background: #dce0df;
+  border-radius: 10px;
+  display:inline;
+  padding: 8px;
+}
+.issue-text-body-user p{
+  background: #8168e2a8;
+  border-radius: 10px;
+  display:inline;
+  padding: 8px;
+}
+
+.mapSetButton{
+  z-index: 999;
+}
