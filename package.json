@@ -1,5 +1,5 @@
 {
-  "name": "Device Tracking Web Client Panel",
+  "name": "device-tracking-web-client-panel",
   "version": "1.0.0",
   "description": "React Js tracking service user interface.",
   "main": "index.js",
